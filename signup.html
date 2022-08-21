@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <script src=
+    "https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js">
+      
+      </script>
+    <title>Signup</title>
+
+   <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <h1 class="logo"><b>GIZMOS UNITED</b></h1>
+        <ul>
+            
+            <li><a href="Feedback.html"> Feedback</a></li>
+            <li><a href="signup.html"> Sign up</a></li>
+            <li><a href="login.html"> Login</a></li>
+            <li><a href="Headphones_page.html">Headphones </a></li>
+            <li><a href="smarthome.html">Smart Home</a></li>
+            <li><a href="">Mobile</a></li>
+            <li><a href="">Pc</a></li>
+            <li><a href="index.html">Store</a></li>
+        </ul>
+    </div>
+    
+    <img id="airpods" src="images/airpods.jpg">
+    <p id = "win"> *Signup now & get  a chance<br> to win apple airpods 😄</p>
+    
+  
+    <form class="container">
+        <label for="username">Username :</label><br>
+        <input type="text"  placeholder=" Set Username" name="username" required><br>
+        
+        <label for="name" id="name">First name :</label><br>
+        <input type="text" placeholder="First name" required><br>
+         
+
+        <label for="lname">*Last name :</label><br>
+        <input type="text"  placeholder="Last name" ><br>
+
+        <label for="Email">Email Id :</label><br>
+        <input type="text"  placeholder="abc@mail.com" required><br>
+
+        <label for="Email">Date of Birth :</label><br>
+        <input type="date"  required><br>
+
+
+        <label for="contact no">Contact No :</label><br>
+        <input type="text"  placeholder="+91" required><br>
+
+        <label for="country">Country :</label><br>
+        <select value="country">
+            <option value="India">India</option>
+            <option value="usa">U.S.A</option>
+            <option value="uae">U.A.E</option>
+            <option value="China">China</option>
+            <option value="Uk">Uk</option>
+
+
+        </select><br>
+
+        <label for="password">Password :</label><br>
+        <input type="password" name="password" placeholder="Enter your password" required><br>
+
+        <label for="confirm_password">Confirm Password :</label><br>
+        <input type="password" name="password" placeholder="Re-enter your password" required><br>
+         
+     
+        
+
+        <input type="submit" onclick="swal({
+            
+             timer: 3000,
+             text: 'Submitted successfully !',
+            buttons: {
+              
+              ok: true,
+            },
+            
+          });" id="submit" value="Submit"><br>
+
+
+    </form>
+
+    
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+

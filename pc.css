@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+
+}
+
+
+.navbar {
+    color: aliceblue;
+    position: relative;
+    top: 0;
+    height: 65px;
+    text-align: center;
+    background-color: rgb(21, 21, 21);
+    overflow: hidden;
+    
+}
+
+.navbar li {
+    float: right;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    margin-right: 120px;
+}
+
+.navbar li a {
+
+    font-size: small;
+    color: aliceblue;
+    align-items: center;
+    text-decoration: none;
+
+}
+#logo1 {
+    width: 80px;
+    margin-bottom: 30px;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: large;
+
+}
+.logo {
+    padding-top: 10px;
+
+    font-family: 'Edu TAS Beginner', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    transition: transform 0.2s;
+
+}
+
+.logo a:hover {
+    color: rgb(186, 168, 168);
+    transform: scale(1.2);
+}
+
+
+
+footer {
+    width: 100%;
+    position: absolute;
+    top: 3800px;
+    background: rgb(205, 203, 203);
+    color: black;
+    padding: 100px 0 30 px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+
+}
+
+.row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+   
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.col {
+
+    flex-basis: 15%;
+    padding: 50px;
+}
+
+#offer1 {
+    height: 38px;
+    background-color: rgba(221, 219, 216, 0.448);
+}
+
+#logo1 {
+    width: 80px;
+    margin-bottom: 30px;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: large;
+
+}
+.logo {
+    padding-top: 10px;
+
+    font-family: 'Edu TAS Beginner', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    transition: transform 0.2s;
+
+}
+
+.logo a:hover {
+    color: rgb(186, 168, 168);
+    transform: scale(1.2);
+}
+
+
+
+
+.col h3 {
+    width: 200px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.email-id {
+    width: fit-content;
+
+    border-bottom: 1px solid #ccc;
+    margin: 20px;
+}
+
+.col ul li {
+    list-style: none;
+    margin-bottom: 12px;
+
+}
+
+.col li a {
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+}
+
+form {
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+
+}
+
+form .far {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+form input {
+    width: 100%;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border: 0;
+    outline: none;
+}
+
+::placeholder {
+
+    color: rgb(0, 0, 0);
+    opacity: 1;
+
+}
+
+form button {
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+
+}
+
+form button .fas {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+.social-icons .fab {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+
+hr {
+    width: 90%;
+    border: 10px;
+    border-bottom: 1px solid #ccc;
+    margin: 10px;
+}
+
+.copyright {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.underline {
+    width: 100%;
+    height: 5px;
+    background-color: #8f8c8c;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+}
+
+#macbook{
+    margin-left: 100vh;
+    border :1px solid black;
+    width: 80vh;
+}
+
+#airtext{
+    margin-left: 30vh;
+    width: 150vh;
+   
+}
+
+
+th{   
+    font-weight: bold;
+    font-size:80px;
+}
+
+table{
+   
+    margin-left:250px;
+    width: 80%;
+}
+
+table,
+th,
+td {
+    font-size: 22px;
+    border: 1px solid rgb(223, 215, 215);
+    border-collapse:collapse;
+   
+}
+
+th,
+td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    padding-right: 40px;
+}
+
+
+.air{
+    border: 1px solid white;
+text-decoration: none;
+border-radius: 10px;
+color: white;
+background-color:black;
+width: 70px;
+height: 30px;
+color: white;
+background-color: rgb(4, 91, 252);
+}
+
+
+.air:hover {
+    color: black;
+    background: white;
+    border: 1px solid black;
+
+}
+
+#table_top{ 
+    width: 90%;
+   
+    padding-left: 140px;
+    
+}
+
+
+.screen{
+    width: 100%;
+    
+}
+.compare video{
+    display:block; 
+    position: absolute;
+    top: 719px;
+    left: -6%;
+    
+    
+
+}
+
+video{
+    display:block; 
+    position: absolute;
+    top: 850px;
+    right: 0;
+    margin-right: -12%;
+}
+
+
+
+.captions{
+    padding-top: 100px;
+    font-size:70px;
+    padding-left: 300px;
+}
+
+.cover{
+   
+    position: absolute;
+    top: 2500px;
+    left: -2%;
+    
+    /* padding-left:100px; */
+}
+.right{
+    position: absolute;
+    top: 3000px;
+    right: 20px;
+    
+}
+
+#surface{
+    
+    width: 47%;
+    height: 61vh;
+    position: absolute;
+    top: 2725px;
+    right: 0;
+}
+#power{
+    width: 50%;
+    height: 61vh;
+    position: absolute;
+    top: 3225px;
+    left: 20px;
+   
+}
+#leftb{
+position:absolute;
+right: 500px;
+top: 2900px;
+
+}
+
+#rightb{
+    position:absolute;
+left: 500px;
+top: 3200px;
+}
+
+
+

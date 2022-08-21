@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.navbar {
+    color: aliceblue;
+    position: sticky;
+    top: 0;
+    height: 65px;
+    text-align: center;
+    background-color: rgb(21, 21, 21);
+
+}
+
+.navbar li {
+    float: right;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    margin-right: 120px;
+}
+
+.navbar li a {
+
+    font-size: small;
+    color: aliceblue;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.offer {
+    padding-top: 12px;
+    text-align: center;
+    font-size: 13px;
+}
+
+video{
+    width: 100%;
+
+}
+
+#image3 {
+    position: absolute;
+    top: 2100px;
+    left: 800px;
+    width: 680px;
+    height: 600px;
+   transition: transform 0.2s;
+   border-radius:20px;
+   overflow: hidden;
+    box-shadow: 5px 5px #dfdfdf;
+   
+}
+#image3:hover{
+transform: scale(1.01);
+}
+
+#image6 {
+    border-radius: 45px;
+    position: absolute;
+    top: 2100px;
+    right: 820px;
+    width: 670px;
+    height: 600px;
+    transition: transform 0.2s;
+    box-shadow: 5px 5px #dfdfdf;
+
+}
+#image6:hover{
+transform: scale(1.01);
+}
+
+#image7 {
+    position: absolute;
+    top: 2750px;
+    right: 50px;
+    border-radius: 45px;
+    width: 700px;
+    height: 600px;
+    transition: transform 0.2s;
+    box-shadow: 5px 5px #dfdfdf;
+}
+#image7:hover {
+transform: scale(1.01);
+}
+
+#image8 {
+    position: absolute;
+    top: 2750px;
+    left: 35px;
+    border-radius: 45px;
+    width: 680px;
+    height: 620px;
+    transition: transform 0.2s;
+    box-shadow: 5px 5px #dfdfdf;
+}
+#image8:hover {
+transform: scale(1.01);
+}
+
+#image9 {
+    position: absolute;
+    top: 3590px;
+    left: 60px;
+    border-radius: 45px;
+    width: 1400px;
+    height: 600px;
+    
+}
+
+#trending {
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 52px;
+    text-shadow: 4px 4px rgb(149, 148, 148);
+}
+
+#oneplus {
+    position:absolute;
+    top: 2539px;
+    left:100px;
+      color: white;
+      text-align: center;
+    font-size: 44px;
+    font-weight: bold;
+}
+#galaxy{
+    position: absolute;
+    top: 2109px;
+    right: 110px;
+   color: linear-gradient(to right, #000000, #f7f7f7cd);
+font-weight: bold;
+font-size: 50px;
+
+}
+#learn{
+    position: absolute;
+        top: 2609px;
+        right: 290px;
+   text-decoration: none;
+   color: rgb(0, 94, 255); 
+   font-weight: bold;
+   font-size: 20px;
+   
+}
+
+#accessories{
+position: absolute;
+    top: 2939px;
+    right: 100px;
+    color: white;
+    text-align: center;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+#ipad{
+    position: absolute;
+        top: 3630px;
+        right: 520px;
+   text-decoration: none;
+   color: rgb(0, 0, 0);  
+   font-weight: bold;
+   font-size: 20px;
+}
+
+
+
+#air{
+    position: absolute;
+    top: 3660px;
+    right: 565px;
+text-decoration: none;
+border-radius: 10px;
+color: white;
+background-color:black;
+width: 70px;
+height: 30px;
+color: white;
+background-color: black;
+}
+
+
+#air:hover {
+    color: black;
+    background: white;
+}
+
+
+
+footer {
+    width: 100%;
+    position: absolute;
+    top: 4300px;
+    background: linear-gradient(to right, #000000, #959494cd);
+    color: #fff;
+    padding: 100px 0 30 px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+
+}
+
+.row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+   
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.col {
+
+    flex-basis: 15%;
+    padding: 50px;
+}
+
+#offer1 {
+    height: 38px;
+    background-color: rgba(221, 219, 216, 0.448);
+}
+
+#logo1 {
+    width: 80px;
+    margin-bottom: 30px;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: large;
+
+}
+.logo {
+    padding-top: 10px;
+
+    font-family: 'Edu TAS Beginner', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    transition: transform 0.2s;
+
+}
+
+.logo a:hover {
+    color: rgb(186, 168, 168);
+    transform: scale(1.2);
+}
+
+
+
+
+.col h3 {
+    width: 200px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.email-id {
+    width: fit-content;
+
+    border-bottom: 1px solid #ccc;
+    margin: 20px;
+}
+
+.col ul li {
+    list-style: none;
+    margin-bottom: 12px;
+
+}
+
+.col li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+form {
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+
+}
+
+form .far {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+form input {
+    width: 100%;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border: 0;
+    outline: none;
+}
+
+::placeholder {
+
+    color: rgb(0, 0, 0);
+    opacity: 1;
+
+}
+
+form button {
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+
+}
+
+form button .fas {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+.social-icons .fab {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+
+hr {
+    width: 90%;
+    border: 10px;
+    border-bottom: 1px solid #ccc;
+    margin: 10px;
+}
+
+.copyright {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.underline {
+    width: 100%;
+    height: 5px;
+    background-color: #8f8c8c;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

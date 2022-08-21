@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Feedback form</title>
+
+   <link rel="stylesheet" href="feedback.css">
+</head>
+
+<body>
+    
+    <div class="navbar">
+        <h1 class="logo"><b>GIZMOS UNITED</b></h1>
+        <ul>
+            
+            <li><a href="Feedback.html"> Feedback</a></li>
+            <li><a href="signup.html"> Sign up</a></li>
+            <li><a href="login.html"> Login</a></li>
+            <li><a href="Headphones_page.html">Headphones </a></li>
+            <li><a href="smarthome.html">Smart Home</a></li>
+            <li><a href="">Mobile</a></li>
+            <li><a href="">Pc</a></li>
+            <li><a href="index.html">Store</a></li>
+        </ul>
+    </div>
+    <img id="bullets1" src="images/bullets1.jpg">
+    <img id="bullets2" src="images/bullets2.jpg">
+    <p id="listening">Like what you see?<br> Tell us</p>
+    <form class="container">
+        <label for="name" id="name">First name :</label><br>
+        <input type="text" name="name" placeholder="First name"><br>
+
+        <label for="lname">Last name :</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Last name"><br>
+
+        <label for="Email">Email Id :</label><br>
+        <input type="text" id="Email" name="Email" placeholder="abc@mail.com"><br>
+
+        <label for="country">Country :</label><br>
+        <select value="country">
+            <option value="India">India</option>
+            <option value="usa">U.S.A</option>
+            <option value="uae">U.A.E</option>
+            <option value="China">China</option>
+            <option value="Uk">Uk</option>
+
+
+        </select><br>
+
+        <label for="Suggetions">Suggetions/Complains :</label><br>
+        <textarea id="Suggetions" placeholder="Write your experience here."
+            style="height:200px; width:500px"></textarea><br>
+
+        
+        <input type="submit" onclick="swal({
+            
+            timer: 2000,
+            text: 'Submitted successfully !',
+           buttons: {
+             
+             ok: true,
+           },
+           
+         });" id="submit" value="Submit"><br>
+
+    </form>
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
